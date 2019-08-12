@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <layout>
-      home
+      <router-link :to="{ name: 'MathJax' }">MathJax</router-link>
     </layout>
   </div>
 </template>

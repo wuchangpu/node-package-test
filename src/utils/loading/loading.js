@@ -6,7 +6,7 @@ const Loading = Vue.extend(LoadingTemplate)
 let instance,count = 0
 
 export default {
-  open (options = {}) {
+  open () {
     count++
     if (!instance) {
       instance = new Loading({
